@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SafariDoku – Confidentialité</title>
+<meta name="description" content="Ce que SafariDoku fait de tes données, et ce qu'il n'en fait pas.">
+<link rel="icon" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<style>
+  @font-face { font-family: Besley; src: url(fonts/Besley.ttf); font-weight: 400 900; font-display: swap; }
+  @font-face { font-family: Cabin; src: url(fonts/Cabin.ttf); font-weight: 400 700; font-display: swap; }
+  :root { color-scheme: light; --ink: #2A2620; --paper: #F4EDE0; --deep: #EADFCB; --coral: #C4532F; --green: #2A7561; --soft: #5f5a52; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: linear-gradient(var(--paper), var(--deep)) fixed; color: var(--ink); font: 18px/1.6 Cabin, system-ui, sans-serif; }
+  main { max-width: 42em; margin: 0 auto; padding: 44px 20px 72px; }
+  h1 { font: 900 clamp(30px, 6vw, 44px)/1.1 Besley, Georgia, serif; letter-spacing: -0.01em; margin: 0 0 10px; text-wrap: balance; }
+  h1 span, .brand span { color: var(--coral); }
+  p { margin: 0 0 18px; }
+  .lede { color: var(--soft); margin-bottom: 30px; }
+  a { color: var(--green); text-underline-offset: 3px; }
+  a:focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; border-radius: 4px; }
+  ::selection { background: #f0c9b8; }
+  .brand { display: inline-flex; align-items: center; gap: 10px; font: 900 20px Besley, Georgia, serif; color: var(--ink); text-decoration: none; margin-bottom: 36px; }
+  .brand img { width: 40px; height: 40px; border-radius: 10px; box-shadow: 0 3px 8px rgba(42, 38, 32, .22); }
+  footer { margin-top: 44px; padding-top: 18px; border-top: 1px solid rgba(42, 38, 32, .14); font-size: 16px; color: var(--soft); display: flex; gap: 18px; flex-wrap: wrap; }
+  .hero { text-align: center; padding-top: 8px; }
+  .hero > img { width: 132px; height: 132px; border-radius: 30px; box-shadow: 0 2px 3px rgba(42, 38, 32, .14), 0 18px 36px rgba(42, 38, 32, .2); }
+  .hero h1 { font-size: clamp(44px, 11vw, 72px); margin: 26px 0 8px; }
+  .hero .voice { font: italic 500 clamp(19px, 4.4vw, 24px) Besley, Georgia, serif; color: var(--soft); margin-bottom: 20px; }
+  .hero .pitch { max-width: 31em; margin: 0 auto 8px; }
+  .soon { display: inline-block; margin: 18px 0 6px; padding: 12px 22px; border-radius: 16px; background: var(--ink); color: #FFFDF8; font: 700 18px Besley, Georgia, serif; box-shadow: 0 5px 0 #14110d, 0 12px 18px rgba(42, 38, 32, .22); }
+  .shots { display: grid; grid-auto-flow: column; grid-auto-columns: min(64vw, 270px); gap: 18px; overflow-x: auto; padding: 34px 20px 26px; margin: 26px -20px 0; scroll-snap-type: x mandatory; }
+  .shots img { width: 100%; height: auto; border-radius: 22px; scroll-snap-align: center; box-shadow: 0 2px 3px rgba(42, 38, 32, .12), 0 14px 28px rgba(42, 38, 32, .18); }
+  @media (min-width: 1000px) { .wide { max-width: 1040px; } .shots { grid-auto-columns: 1fr; overflow: visible; margin: 26px 0 0; padding-inline: 0; } }
+</style>
+</head>
+<body>
+<main>
+<a class="brand" href="./"><img src="img/icon.png" alt="">Safari<span>Doku</span></a>
+<h1>Politique de confidentialité</h1>
+<p class="lede">Dernière mise à jour : 13 novembre 2026</p>
+<p>SafariDoku est un jeu de logique pour iPhone. Pour toute question : <a href="mailto:contact@noham.eu">contact@noham.eu</a>.</p>
+<p><strong>En bref.</strong> Le jeu se joue sans créer de compte. Ta progression reste sur ton iPhone. Les publicités sont fournies par Google, qui reçoit pour cela quelques données techniques ; tu choisis si elles peuvent servir à personnaliser les annonces. Le parrainage enregistre un identifiant anonyme, sans nom ni adresse.</p>
+<p><strong>Ce qui reste sur ton appareil.</strong> Ta progression, tes étoiles, tes graines, tes animaux, ton pseudo et tes réglages sont enregistrés sur ton iPhone. Nous ne les recevons pas.</p>
+<p><strong>Publicité.</strong> Le jeu affiche des publicités fournies par Google AdMob. Pour les afficher, les mesurer et lutter contre la fraude, Google reçoit : l'identifiant publicitaire de l'appareil (seulement si tu l'as autorisé), une position approximative déduite de l'adresse IP, les publicités vues et les interactions avec elles, et des données techniques de diagnostic et de performance. Dans l'Espace économique européen, au Royaume-Uni et en Suisse, le jeu te demande ton accord au premier lancement ; iOS te demande ensuite si tu autorises le suivi. Tu peux changer d'avis à tout moment : dans le jeu, Réglages puis « Mes choix pour les pubs » ; sur l'iPhone, Réglages &gt; Confidentialité et sécurité &gt; Suivi. Si tu refuses, les publicités restent mais ne sont pas personnalisées. Pour savoir comment Google utilise ces données : <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></p>
+<p><strong>Parrainage.</strong> Si tu utilises le parrainage, le jeu enregistre dans iCloud (service CloudKit d'Apple) ton code de parrainage et un identifiant technique calculé à partir de ton compte iCloud, rendu illisible par hachage. Il sert à trois choses : retrouver ton code après une réinstallation, compter les amis qui l'ont utilisé, et empêcher qu'un même compte utilise plusieurs codes. Aucun nom, aucune adresse e-mail, aucun contact n'est enregistré. Ces données sont conservées tant que le parrainage existe ; écris-nous avec ton code pour les faire supprimer.</p>
+<p><strong>Game Center.</strong> Si tu es connecté à Game Center, tes scores (niveaux terminés, étoiles, meilleure série) sont envoyés à Apple pour les classements. Tu peux te déconnecter de Game Center dans les Réglages de l'iPhone.</p>
+<p><strong>Achats.</strong> Les achats intégrés sont traités par Apple. Nous ne recevons ni ton nom ni tes moyens de paiement.</p>
+<p><strong>Enfants.</strong> Le jeu s'adresse à tous les publics et n'est pas conçu spécialement pour les enfants. Nous ne collectons sciemment aucune donnée permettant d'identifier un enfant.</p>
+<p><strong>Tes droits.</strong> Tu peux demander l'accès aux données te concernant, leur rectification ou leur suppression en écrivant à l'adresse ci-dessus. Si tu résides dans l'Union européenne, tu peux aussi saisir l'autorité de protection des données de ton pays (en France, la CNIL).</p>
+<p><strong>Modifications.</strong> Cette page sera mise à jour si le jeu change. La date en haut de page indique la dernière version.</p>
+<footer>
+<a href="./">SafariDoku</a>
+<a href="assistance.html">Assistance</a>
+<a href="confidentialite.html">Confidentialité</a>
+<a href="https://nohdev.github.io/">NohDev</a>
+</footer>
+</main>
+</body>
+</html>
